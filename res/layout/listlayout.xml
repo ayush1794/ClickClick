@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="150dip"
+    android:padding="6dip"  >
+
+    <ImageView
+        android:id="@+id/click"
+        android:layout_width="350dip"
+        android:layout_height="175dip"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/dateTime"
+        android:layout_width="100dip"
+        android:layout_height="36dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>

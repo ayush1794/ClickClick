@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    tools:context="test.purpleberry.clickclick.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    
+    <item android:id="@+id/action_click"
+          android:title="@string/click"
+          yourapp:showAsAction="ifRoom"/>
+    
+    <item android:id="@+id/action_track"
+          android:title="@string/track"
+          yourapp:showAsAction="ifRoom"/>
+    
+    <item android:id="@+id/action_untrack"
+          android:title="@string/stop_track"
+          yourapp:showAsAction="ifRoom"/>
+    
+    <item android:id="@+id/count"
+          android:title="@string/get_count"
+          yourapp:showAsAction="ifRoom"/>
+    
+    <item android:id="@+id/action_load"
+          android:title="@string/load"
+          yourapp:showAsAction="ifRoom"/>
+
+</menu>
